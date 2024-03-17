@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-paper-scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Rock-paper-scissors</h1>
-    <p>To play this game insert Rock paper or scissors inside that box and check browser console</p>
-    
+    <h1>Rock-paper-scissors</h1>  
+    <div id="round">Round: 0</div>
+    <div class="score">
+        <div id="playerScore">Player: 0</div>
+        <div id="computerScore">Computer: 0</div>
+    </div>
+    <div class="choices"> 
+        <button id="rock">👊 </button>
+        <button id="paper">🖐️</button>
+        <button id="scissors">✌️</button> 
+    </div>
+    <div id="result"></div>
+    <div id="playAgain"></div>
+
+
     <script src="script.js"></script>
-    
 </body>
 </html>
